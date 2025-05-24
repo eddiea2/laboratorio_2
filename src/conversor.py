@@ -1,6 +1,6 @@
+import random
 import json
 from datetime import datetime
-import random
 
 def cargar_tasas(ruta):
     with open(ruta, "r") as archivo:
